@@ -23,7 +23,7 @@ def get_opt():
     parser.add_argument('-j', '--workers', type=int, default=1)
     parser.add_argument('-b', '--batch-size', type=int, default=4)
 
-    parser.add_argument("--dataroot", default="data")
+    parser.add_argument("--dataroot", default="cp-vton-plus/data")
 
     # parser.add_argument("--datamode", default="train")
     parser.add_argument("--datamode", default="test")
